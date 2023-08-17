@@ -1,7 +1,7 @@
 ## Terraform module to store parameters on AWS SSM Parameter Store.
 ### Usage
 
-```
+```hcl
 overwrite = true
 parameters = [
   {
