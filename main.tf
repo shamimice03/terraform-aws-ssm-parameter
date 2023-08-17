@@ -6,8 +6,6 @@ resource "aws_ssm_parameter" "parameter" {
   value       = each.value.value
   key_id      = each.value.key_alias
   tags        = each.value.tags
-
-  overwrite = var.overwrite
 }
 
 

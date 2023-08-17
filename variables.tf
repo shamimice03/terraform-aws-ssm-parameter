@@ -1,9 +1,3 @@
-variable "overwrite" {
-  description = "Overwrite an existing parameter"
-  type        = bool
-  default     = false
-}
-
 variable "parameters" {
   description = "List of parameters"
   type = list(object({
