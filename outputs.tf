@@ -1,9 +1,10 @@
 output "parameter_names" {
-  value = [for p in aws_ssm_parameter.parameter : p.name]
+  value       = [for p in aws_ssm_parameter.parameter : p.name]
+  description = "A list of parameter names extracted from the aws_ssm_parameter resources."
 }
 
-
 output "parameter_values" {
-  value     = [for p in aws_ssm_parameter.parameter : p.value]
-  sensitive = true
+  value       = [for p in aws_ssm_parameter.parameter : p.value]
+  sensitive   = true
+  description = "A list of parameter values extracted from the aws_ssm_parameter resources. These values are treated as sensitive."
 }

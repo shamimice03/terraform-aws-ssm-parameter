@@ -5,6 +5,7 @@ variable "overwrite" {
 }
 
 variable "parameters" {
+  description = "List of parameters"
   type = list(object({
     name        = string
     description = optional(string)
