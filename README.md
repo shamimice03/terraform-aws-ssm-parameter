@@ -73,4 +73,5 @@ No modules.
 |------|-------------|
 | <a name="output_parameter_names"></a> [parameter\_names](#output\_parameter\_names) | A list of parameter names extracted from the aws\_ssm\_parameter resources. |
 | <a name="output_parameter_values"></a> [parameter\_values](#output\_parameter\_values) | A list of parameter values extracted from the aws\_ssm\_parameter resources. These values are treated as sensitive. |
+| <a name="output_parameters"></a> [parameters](#output\_parameters) | A list of parameters extracted from the aws\_ssm\_parameter resources. These values are treated as sensitive. |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
