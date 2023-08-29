@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.4.0](https://github.com/shamimice03/terraform-aws-ssm-parameter/compare/v0.3.0...v0.4.0) (2023-08-29)
+
+
+### Features
+
+* **require-version:** updated required terraform version to 1.5.0 ([d46e0ce](https://github.com/shamimice03/terraform-aws-ssm-parameter/commit/d46e0cef5103f85de604d5ae31aee3139817aa7a))
+
 ## [0.3.0](https://github.com/shamimice03/terraform-aws-ssm-parameter/compare/v0.2.0...v0.3.0) (2023-08-29)
 
 
