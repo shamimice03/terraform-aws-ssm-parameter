@@ -16,12 +16,18 @@ email, or any other method with the owners of this repository before making a ch
 ## Semantic Pull Requests
 To generate changelog, Pull Requests or Commits must have semantic and must follow conventional specs below:
 
-- `feat:` for new features
+- `feat:` for new features. `e.g: feat(new featute): added new feature`
 - `fix:` for bug fixes
-- `improvement:` for enhancements
 - `docs:` for documentation and examples
 - `refactor:` for code refactoring
-- `test:` for tests
 - `ci:` for CI purpose
 - `test:` Adding missing tests or correcting existing tests
+
+## PULL REQUEST TEMPLATE
+- [ ] A new feature (PR prefix `feat`)
+- [ ] A bug fix (PR prefix `fix`)
+- [ ] Documentation only changes (PR prefix `docs`)
+- [ ] A code change that neither fixes a bug nor adds a feature (PR prefix `refactor`)
+- [ ] Changes to our CI configuration files and scripts (PR prefix `ci`)
+- [ ] Adding missing tests or correcting existing tests (PR prefix `test`)
 
