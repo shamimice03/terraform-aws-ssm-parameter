@@ -10,7 +10,7 @@ email, or any other method with the owners of this repository before making a ch
 ## Checklists for contributions
 - [ ] Add [semantics prefix](#semantic-pull-requests) to your PR or Commits (at least one of your commit groups)
 - [ ] CI tests are passing
-- [ ] README.md has been updated after any changes. The variables and outputs in the README.md has been generated (using the `terraform_docs` pre-commit hook).
+- [ ] `README.md` has been updated after any changes. The variables and outputs in the README.md has been generated (using the `terraform_docs` pre-commit hook).
 - [ ] Run pre-commit hooks `pre-commit run -a`
 
 ## Semantic Pull Requests
