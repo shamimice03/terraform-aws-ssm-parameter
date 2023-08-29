@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.4.1](https://github.com/shamimice03/terraform-aws-ssm-parameter/compare/v0.4.0...v0.4.1) (2023-08-29)
+
+
+### Bug Fixes
+
+* **workflow:** fixed workflow pre-commit ([b9a5fe8](https://github.com/shamimice03/terraform-aws-ssm-parameter/commit/b9a5fe80fa1ec2d59c97d96f6aa95dc698dff969))
+
 ## [0.4.0](https://github.com/shamimice03/terraform-aws-ssm-parameter/compare/v0.3.0...v0.4.0) (2023-08-29)
 
 
