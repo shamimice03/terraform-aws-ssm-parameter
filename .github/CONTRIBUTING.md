@@ -16,7 +16,7 @@ email, or any other method with the owners of this repository before making a ch
 ## Semantic Pull Requests
 To generate changelog, Pull Requests or Commits must have semantic and must follow conventional specs below:
 
-- `feat:` for new features
+- `feat:` for new features.  `example` : `feat(new feature): added new feature`
 - `fix:` for bug fixes
 - `improvement:` for enhancements
 - `docs:` for documentation and examples
