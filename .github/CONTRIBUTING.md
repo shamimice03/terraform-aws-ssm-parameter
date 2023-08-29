@@ -23,7 +23,7 @@ To generate changelog, Pull Requests or Commits must have semantic and must foll
 - `ci:` for CI purpose
 - `test:` Adding missing tests or correcting existing tests
 
-## PULL REQUEST TEMPLATE
+## Pull Request Template
 - [ ] A new feature (PR prefix `feat`)
 - [ ] A bug fix (PR prefix `fix`)
 - [ ] Documentation only changes (PR prefix `docs`)
