@@ -1,5 +1,5 @@
 variable "parameters" {
-  description = "List of parameters"
+  description = "List of Parameters"
   type = list(object({
     name        = string
     description = optional(string)

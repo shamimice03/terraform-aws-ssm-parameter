@@ -65,7 +65,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_parameters"></a> [parameters](#input\_parameters) | List of parameters | <pre>list(object({<br>    name        = string<br>    description = optional(string)<br>    type        = string<br>    value       = string<br>    key_alias   = optional(string)<br>    tags        = optional(map(string))<br>  }))</pre> | <pre>[<br>  {<br>    "description": null,<br>    "key_alias": null,<br>    "name": null,<br>    "tags": null,<br>    "type": null,<br>    "value": null<br>  }<br>]</pre> | no |
+| <a name="input_parameters"></a> [parameters](#input\_parameters) | List of Parameters | <pre>list(object({<br>    name        = string<br>    description = optional(string)<br>    type        = string<br>    value       = string<br>    key_alias   = optional(string)<br>    tags        = optional(map(string))<br>  }))</pre> | <pre>[<br>  {<br>    "description": null,<br>    "key_alias": null,<br>    "name": null,<br>    "tags": null,<br>    "type": null,<br>    "value": null<br>  }<br>]</pre> | no |
 
 ## Outputs
 
