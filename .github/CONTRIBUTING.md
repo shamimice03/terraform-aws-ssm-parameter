@@ -30,4 +30,3 @@ To generate changelog, Pull Requests or Commits must have semantic and must foll
 - [ ] A code change that neither fixes a bug nor adds a feature (PR prefix `refactor`)
 - [ ] Changes to our CI configuration files and scripts (PR prefix `ci`)
 - [ ] Adding missing tests or correcting existing tests (PR prefix `test`)
-
