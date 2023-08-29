@@ -42,14 +42,14 @@ module "parameters" {
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.0 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 5.0.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.12.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.14.0 |
 
 ## Modules
 
@@ -65,7 +65,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_parameters"></a> [parameters](#input\_parameters) | List of parameters | `list(any)` | `[]` | no |
+| <a name="input_parameters"></a> [parameters](#input\_parameters) | List of parameters | <pre>list(object({<br>    name        = string<br>    description = optional(string)<br>    type        = string<br>    value       = string<br>    key_alias   = optional(string)<br>    tags        = optional(map(string))<br>  }))</pre> | <pre>[<br>  {<br>    "description": null,<br>    "key_alias": null,<br>    "name": null,<br>    "tags": null,<br>    "type": null,<br>    "value": null<br>  }<br>]</pre> | no |
 
 ## Outputs
 
