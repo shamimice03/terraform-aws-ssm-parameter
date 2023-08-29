@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.4.2](https://github.com/shamimice03/terraform-aws-ssm-parameter/compare/v0.4.1...v0.4.2) (2023-08-29)
+
+
+### Bug Fixes
+
+* **variable:** fixed variable description ([c67839b](https://github.com/shamimice03/terraform-aws-ssm-parameter/commit/c67839b9bfac16a8f0ee6abdbcaab362defda267))
+* **variable:** fixed variable description ([9fce916](https://github.com/shamimice03/terraform-aws-ssm-parameter/commit/9fce9168d40505c602cddaa83256b83a65721dcb))
+* **variable:** fixed variable description ([fdb0454](https://github.com/shamimice03/terraform-aws-ssm-parameter/commit/fdb04549f6549c41c28fef45ce94a8e6062e7dce))
+
 ### [0.4.1](https://github.com/shamimice03/terraform-aws-ssm-parameter/compare/v0.4.0...v0.4.1) (2023-08-29)
 
 
