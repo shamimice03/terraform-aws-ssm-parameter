@@ -19,6 +19,3 @@ variable "parameters" {
     }
   ]
 }
-
-
-

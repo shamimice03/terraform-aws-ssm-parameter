@@ -16,4 +16,3 @@ output "parameters" {
   sensitive   = true
   description = "A list of parameters extracted from the aws_ssm_parameter resources. These values are treated as sensitive."
 }
-

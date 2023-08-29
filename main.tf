@@ -7,5 +7,3 @@ resource "aws_ssm_parameter" "parameter" {
   key_id      = each.value.key_alias
   tags        = each.value.tags
 }
-
-
