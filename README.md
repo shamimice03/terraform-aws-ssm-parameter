@@ -1,4 +1,4 @@
-## Terraform module for storing parameters on AWS SSM Parameter Store
+## Terraform module to store parameters on `AWS SSM Parameter Store`
 ### Usage
 
 ```hcl
@@ -59,7 +59,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [aws_ssm_parameter.parameter](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ssm_parameter) | resource |
+| [aws_ssm_parameter.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ssm_parameter) | resource |
 
 ## Inputs
 
