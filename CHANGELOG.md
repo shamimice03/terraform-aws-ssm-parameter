@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.5.0](https://github.com/shamimice03/terraform-aws-ssm-parameter/compare/v0.4.4...v0.5.0) (2023-09-14)
+
+
+### Features
+
+* **create-option:** added new feature to determine parameter creation ([90b3619](https://github.com/shamimice03/terraform-aws-ssm-parameter/commit/90b36198db32763bd7d1f975ab38c4dcb003ad9f))
+* **create-option:** added new feature to determine parameter creation ([869a125](https://github.com/shamimice03/terraform-aws-ssm-parameter/commit/869a1252ec4d35e7d389987efc729c9ac39314b5))
+
 ### [0.4.4](https://github.com/shamimice03/terraform-aws-ssm-parameter/compare/v0.4.3...v0.4.4) (2023-09-01)
 
 
