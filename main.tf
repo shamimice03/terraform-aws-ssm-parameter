@@ -1,5 +1,5 @@
 resource "aws_ssm_parameter" "this" {
-  for_each = { for i in var.parameters : i.name => i }
+  for_each = { for i in var.parameters : i.name => i if i.create }
 
   name        = each.value.name
   description = each.value.description

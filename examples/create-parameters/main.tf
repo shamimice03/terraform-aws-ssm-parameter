@@ -4,6 +4,7 @@ module "demo_parameters" {
 
   parameters = [
     {
+      create      = true
       name        = "/webapp/db/username"
       type        = "String"
       description = "Parameter for webapp"
@@ -13,6 +14,7 @@ module "demo_parameters" {
       }
     },
     {
+      create      = true
       name        = "/webapp/db/role"
       type        = "StringList"
       description = "Parameter for webapp"
@@ -22,6 +24,7 @@ module "demo_parameters" {
       }
     },
     {
+      create      = false
       name        = "/webapp/db/password"
       type        = "SecureString"
       description = "Parameter for webapp"
