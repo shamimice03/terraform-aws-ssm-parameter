@@ -8,6 +8,7 @@ module "parameters" {
 
   parameters = [
     {
+      create      = true
       name        = "/webapp/db/username"
       type        = "String"
       description = "Parameter for webapp"
@@ -17,6 +18,7 @@ module "parameters" {
       }
     },
     {
+      create      = true
       name        = "/webapp/db/role"
       type        = "StringList"
       description = "Parameter for webapp"
@@ -26,6 +28,7 @@ module "parameters" {
       }
     },
     {
+      create      = false
       name        = "/webapp/db/password"
       type        = "SecureString"
       description = "Parameter for webapp"
@@ -50,7 +53,7 @@ module "parameters" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.15.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.16.2 |
 
 ## Modules
 
@@ -66,7 +69,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_parameters"></a> [parameters](#input\_parameters) | List of Parameters | <pre>list(object({<br>    name        = string<br>    description = optional(string)<br>    type        = string<br>    value       = string<br>    key_alias   = optional(string)<br>    tags        = optional(map(string))<br>  }))</pre> | <pre>[<br>  {<br>    "description": null,<br>    "key_alias": null,<br>    "name": null,<br>    "tags": null,<br>    "type": null,<br>    "value": null<br>  }<br>]</pre> | no |
+| <a name="input_parameters"></a> [parameters](#input\_parameters) | List of Parameters | <pre>list(object({<br>    create      = bool<br>    name        = string<br>    description = optional(string)<br>    type        = string<br>    value       = string<br>    key_alias   = optional(string)<br>    tags        = optional(map(string))<br>  }))</pre> | <pre>[<br>  {<br>    "create": true,<br>    "description": null,<br>    "key_alias": null,<br>    "name": null,<br>    "tags": null,<br>    "type": null,<br>    "value": null<br>  }<br>]</pre> | no |
 
 ## Outputs
 

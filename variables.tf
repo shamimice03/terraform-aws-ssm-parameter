@@ -1,6 +1,7 @@
 variable "parameters" {
   description = "List of Parameters"
   type = list(object({
+    create      = bool
     name        = string
     description = optional(string)
     type        = string
@@ -10,6 +11,7 @@ variable "parameters" {
   }))
   default = [
     {
+      create      = true
       name        = null
       description = null
       type        = null
